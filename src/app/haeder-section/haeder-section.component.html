@@ -1,0 +1,366 @@
+
+<div id="shopify-section-header-3"style="width: 1349px;" class="shopify-section">
+    <!-- Header -->
+    <header class="sm-top-space">
+        <div class="mobile-fix-option"></div>
+        <div class="theme-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-12">
+                        <div class="theme-menu sm-center-unset">
+
+                            <div class="brand-logo" itemscope="" itemtype="">
+                                <a href="/" itemprop="url">
+                                    <img src="assets/img/logo7.png" class="img-fluid lazyloaded" alt="ps_multimart" style="max-width:250px">
+                                </a>
+                            </div>
+
+                            <div class="menu-right sm-z-9 elct-menu-width">
+                                <nav class="theme-home-menu header-three-style hs-three">
+                                    <div class="toggle-nav d-none">
+                                        <i class="fa fa-bars sidebar-bar"></i>
+                                    </div>
+
+                                    <ul id="main-menu" class="sm pixelstrap home-header sm-horizontal home-1 " data-smartmenus-id="16176341840910044">
+                                        <div class="toggle-nav d-none">
+                                            <i class="fa fa-bars sidebar-bar"></i>
+                                        </div>
+                                        <li class="main-menu-hover" (click)="hide()">
+                                            <div class="mobile-back text-right">
+                                                <span data-trans-key="layout.navigation.back">back</span>
+                                                <i class="fa fa-angle-right pl-2" aria-hidden="true"></i>
+                                            </div>
+                                        </li>
+
+
+                                        <li class="drop-dwn-menu" *ngFor="let menu of header">
+                                            <a href="" class="menu-title has-submenu " routerLink={{menu.routerlink}} id="sm-16176341840910044-1" aria-haspopup="true" aria-controls="sm-16176341840910044-2" aria-expanded="false">
+                                                <span class="lang_trans" data-trans="">
+                                                    {{menu.manuName}}
+                  </span>
+
+                                                <span class="hide" id="header1_1561099915502_menu_name"></span>
+
+                                                <span class="sub-arrow"></span></a>
+
+                                        </li>
+
+
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- <div class="cart-three icon-nav-cart d-none d-md-block">
+
+                                <div class="fix-top onhover-div mobile-cart" onclick="openCart()">
+                                    <div class="media">
+                                        <i class="flaticon flaticon-shopping-bag"></i>
+                                        <div class="media-body">
+                                            <h6 class="lang_trans " data-trans="header3_cart_text">
+                                                shopping Cart (<span class="cart_qty_cls">0</span>)
+                                            </h6>
+
+                                            <span class="hide" id="header3_cart_text"></span>
+
+                                            <span class="items_carts"><span class="money">$0.00</span></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div> -->
+                            <div class="ml-md-4 d-none d-md-block dark-theme-icon">
+                                <a href="#" title="Call info">
+                                  <i class="flaticon flaticon-start fa-2x align-middle white-icon"></i>
+                                  <span class="call-info">124-456-7813</span>
+                                </a>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-12 bg-header-three">
+                        <div class="row ">
+
+                            <div class="menu-classic col-side-btn-md">
+                                <div class="dropdown category-dropdown theme-header-two">
+                                    <button class="btn transparant elec-cat-show-btn  drp-shap " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="flaticon flaticon-menu d-inline-block"></i><span class=" lang_trans" data-trans="#section_v_menu_text">  Shop by Products </span>
+             
+            
+        
+              <span class="hide" id="section_v_menu_text"></span>
+               
+            </button>
+                                    <div class="dropdown-menu category-list sm-sidebar electric-cat-show unshow  with-icon" aria-labelledby="dropdownMenuButton">
+                                        <ul>
+                                            <li class="main-menu-hover d-block d-md-none">
+                                                <div class="mobile-back text-right">
+                                                    Back<i class="fa fa-angle-right pl-2" aria-hidden="true"></i>
+                                                </div>
+                                            </li>
+
+
+                                            <li>
+                                                <a class="dropdown-item" href="">
+                                                    <img src="assets/img/mens fashion.png" class="lazyload " alt="">
+                                                    <span class=" class=" lang_trans data-trans="#header3_1568451368013v_menu_name"> mens fashion</span>
+
+                                                    <span class="hide" id="header3_1568451368013v_menu_name"> </span>
+
+                                                </a>
+                                            </li>
+
+
+
+                                            <li>
+                                                <a class="dropdown-item" href="">
+                                                    <img src="assets/img/casual pents.png" class="lazyload " alt="">
+                                                    <span class=" class=" lang_trans data-trans="#header3_1568451368013v_menu_name"> casual pents</span>
+
+                                                    <span class="hide" id="header3_1568451368013v_menu_name"> </span>
+
+                                                </a>
+                                            </li>
+
+
+
+                                            <li>
+                                                <a class="dropdown-item" href="">
+                                                    <img src="assets/img/dress.png" class="lazyload " alt="">
+                                                    <span class=" class=" lang_trans data-trans="#header3_1568451368013v_menu_name"> dress</span>
+
+                                                    <span class="hide" id="header3_1568451368013v_menu_name"> </span>
+
+                                                </a>
+                                            </li>
+
+
+
+                                            <li>
+                                                <a class="dropdown-item" href="">
+                                                    <img src="assets/img/watch1.png" class="lazyload " alt="">
+                                                    <span class=" class=" lang_trans data-trans="#header3_1568451368013v_menu_name"> watch</span>
+
+                                                    <span class="hide" id="header3_1568451368013v_menu_name"> </span>
+
+                                                </a>
+                                            </li>
+
+
+
+                                            <li>
+                                                <a class="dropdown-item" href="">
+                                                    <img src="assets/img/heels.png" class="lazyload " alt="">
+                                                    <span class=" class=" lang_trans data-trans="#header3_1568451368013v_menu_name "> heels</span>
+
+                                                    <span class="hide" id="header3_1568451368013v_menu_name"> </span>
+
+                                                </a>
+                                            </li>
+
+
+
+                                            <li>
+                                                <a class="dropdown-item" href="">
+                                                    <img src="assets/img/cat1_24x_4cf29236-d907-46d0-9060-586cbfba666c_24x.png" class="lazyload " alt="">
+                                                    <span class=" class=" lang_trans data-trans="#header3_1568451368013v_menu_name "> kids fashion</span>
+
+                                                    <span class="hide" id="header3_1568451368013v_menu_name"> </span>
+
+                                                </a>
+                                            </li>
+
+
+
+                                            <li>
+                                                <a class="dropdown-item" href="">
+                                                    <img src="assets/img/dress.png" class="lazyload " alt="">
+                                                    <span class=" class=" lang_trans data-trans="#header3_1568451368013v_menu_name "> kides baby</span>
+
+                                                    <span class="hide" id="header3_1568451368013v_menu_name"> </span>
+
+                                                </a>
+                                            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="theme-searcbar sm-none-src d-none d-xl-block">
+                                <form action="/search" method="get" role="search" class="theme-form-one header-style" style="position: relative;">
+                                    <div class="form-group sm-none search-results">
+                                        <input [value]="search" ngxTypeahead [taUrl]="url" [taParams]="params" (taSelected)="handleResultSelected($event)" type="search" class="form-control width-input" name="q" id="inputPassword2" placeholder="Search products" required="required" autocomplete="off"
+                                        />
+
+                                        <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    </div>
+                                    <ul class="search-results" style="position: absolute; left: 0px; top: 44px; display: none;"></ul>
+                                </form>
+
+                            </div>
+
+                            <div class="icon-nav-cart dark-theme-icon box-icon">
+                                <ul class="header-three ">
+                                    <li class="fix-top searchbox">
+                                        <div class="searchbox-md d-xl-none" title="Quick Search">
+                                            <i class="flaticon flaticon-search" onclick="openSearch()"></i>
+                                        </div>
+                                    </li>
+                                    <div id="search-overlay" class="search-overlay ">
+                                        <div>
+                                            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                                            <div class="overlay-content">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-xl-12">
+                                                            <form action="/search" method="get" role="search" style="position: relative;">
+                                                                <div class="form-group">
+                                                                    <input type="search" class="form-control" name="q" placeholder="Search products" autocomplete="off">
+                                                                </div>
+                                                                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                                                                <ul class="search-results" style="position: absolute; left: 0px; top: -2px; display: none;"></ul>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <li class="fix-top User d-none d-md-inline-block onhover-dropdown  mobile-account">
+                                        <a href="">
+                                            <i class="flaticon flaticon-man-user"></i>
+                                        </a>
+                                        <ul class="onhover-show-div">
+                                            <li>
+
+                                                <a routerLink="/login" data-trans-key="layout.customer.log_in">
+                    Log in
+                  </a>
+
+                                            </li>
+                                            <li>
+
+                                                <a routerLink="/register" data-trans-key="layout.customer.create_account">
+                    register
+                  </a>
+
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="fix-top wishlist">
+                                        <a  title="Add to wishlist"  data-trans-key="layout.customer.log_in">
+                                            <i (click)="view()"class="flaticon flaticon-favorite-heart-button"></i>
+                                        </a>
+                                    </li>
+
+
+
+                                    <li class="fix-top onhover-div  setting-icon">
+   </li>
+
+
+
+                                    <li class="fix-top onhover-div mobile-cart d-inline-block d-md-none" onclick="openCart()">
+                                        <div title="Show Cart" class="cart-icon">
+                                            <a routerLink="/register"    data-trans-key="layout.customer.log_in">
+                                            <i class="flaticon flaticon-shopping-bag"></i></a>
+                                            <span class="cart-add  cart_qty_cls">0</span>
+                                       </div>
+
+                                    </li>
+                                    <form action="/checkout" method="post"  data-shop-currency="USD" data-shop-name="ps_multimart" class="cart_content_form ">
+                                        <li class="fix-top onhover-div mobile-cart" onclick="openCart()">
+                                          <div title="Show Cart" class="cart-icon">
+                                            <a routerLink="/AddToCart"    data-trans-key="layout.customer.log_in">
+
+                                            <i class="flaticon flaticon-shopping-bag"></i> </a>
+                                            <span class="cart-add cart_count"><span class="up-cls  cart_qty_cls">0</span></span>
+                                          </div>
+                                          
+                                        </li>
+                                        <li>
+                                        <span class="items_carts"><span class="money">$0.00</span></span>
+                                        </li>
+                                      </form>
+                                </ul>
+                               <!-- popup -->
+                               <div *ngIf="show" class="modal fade bd-example-modal-lg theme-modal show" id="exampleModal" tabindex="-1" role="dialog" style="background: #000000a1;padding-right: 17px; display: block;">
+                                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-body">
+                                      <div class="news-latter">
+                                        <div class="modal-bg">
+                                          <div class="offer-content">
+                                            <div>
+                                              <button type="button" (click)="hide()" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                              
+                                              <h2 class="lang_trans" data-trans="#newsltr_popup_newsletter_heading">
+                                                newsletter
+                                              </h2>
+                                              
+                                              <span class="hide" id="newsltr_popup_newsletter_heading"></span>
+                                              
+                                              
+                              
+                                                                
+                                              <p class="lang_trans" data-trans="#newsltr_popup_newsletter_text">
+                                                Subscribe to our website mailling list <br> and get a Offer, Just for you!
+                                              </p>
+                                              
+                                              <span class="hide" id="newsltr_popup_newsletter_text"></span>
+                                              
+                                              
+                                              <form action="https://your-action-url.com/" class="auth-form needs-validation" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+                                                  <div id="mc_embed_signup_scroll" class="form-group mx-sm-3 ">
+                                                    <input type="email" placeholder="Enter Your PIN Number" class="required email form-control" value="" name="EMAIL" aria-describedby="emailHelp" d="mce-EMAIL" required="">
+                                                    <div id="mce-responses" class="clear">
+                                                      <div class="response" id="mce-error-response" style="display:none"></div>
+                                                      <div class="response" id="mce-success-response" style="display:none"></div>
+                                                    </div>
+                                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                    <div style="position: absolute; left: -5000px;" hidden="">
+                                                  <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Enter PIN Number" required="required">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-theme theme-solid btn-sm mt-2" name="subscribe" id="mc-embedded-subscribe" data-translate="general.newsletter_form.submit">Subscribe</button>
+                                                  </div>
+                                                </form>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- popup end here -->
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End-->
+
+
+
+
+
+
+</div>

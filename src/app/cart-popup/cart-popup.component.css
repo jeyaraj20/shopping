@@ -1,0 +1,16 @@
+.product_view .modal-dialog{max-width: 800px; width: 100%;}
+.pre-cost{text-decoration: line-through; color: #a5a5a5;}
+.space-ten{padding: 10px 0;}
+.product_view{
+    background: #00000059;
+    display: block;
+    
+}
+select.form-control:not([size]):not([multiple]) {
+    height: calc(3.25rem + 2px);
+}
+button.btn.btn-primary{
+    margin: 2px;
+    background: #ff4500c7;
+    border: none;
+}

@@ -1,0 +1,62 @@
+
+<div class="dfg">
+    <div class="sign-inup">
+    <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-lg-5">
+    <div class="sign-form">
+    <div class="sign-inner">
+    <div class="sign-logo" id="logo">
+    <a href="index.html"><img class="logo-inverse" src="assets/img/logo7.png" alt=""></a>
+    </div>
+    <div class="form-dt">
+    <div class="form-inpts checout-address-step">
+        <form [formGroup]="formGroup"  id="customer_login" accept-charset="UTF-8" class="theme-form">
+            <div class="form-title"><h6>Sign In</h6></div>
+            
+
+    <div class="form-group pos_rel">
+    <input id="CustomerEmail" name="phone" type="text"formControlName="mobile" placeholder="Enter Phone Number" class="form-control lgn_input" required="">
+    <i class="fa fa-mobile-phone lgn_icon"></i>
+    </div>
+    <div class="form-group pos_rel">
+    <input id="CustomerPassword" name="customer[password]" type="password" formControlName="password" placeholder="Enter Password" class="form-control lgn_input" required="">
+    <i class="uil fa fa-lock lgn_icon"></i>
+    </div>
+
+    <button class="login-btn hover-btn" type="submit" id="login" (click)="signin()" data-trans-key="customer.login.login">Sign In Now</button>
+    </form>
+    </div>
+    <div class="password-forgor">
+    <a  routerLink="/forgot-password">Forgot Password?</a>
+    </div>
+
+    <div class="signup-link">
+    <p style="color: #fff;">Don't have an account? - <a routerLink="/register">Sign Up Now</a></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="copyright-text text-center mt-3">
+    <i class="uil uil-copyright"></i>Copyright 2021 <b>Online Suppermart</b> . All rights reserved
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/OwlCarousel/owl.carousel.js"></script>
+    <script src="vendor/semantic/semantic.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/product.thumbnail.slider.js"></script>
+    <script src="js/offset_overlay.js"></script>
+    <script src="js/night-mode.js"></script>
+    
+</div>
+
+
+
+

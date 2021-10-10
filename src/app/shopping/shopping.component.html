@@ -1,0 +1,43 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+</head>
+
+<!------ Include the above in your HEAD tag ---------->
+
+
+
+<section id="carousel">    				
+	
+			<div class="col-sm-12">
+				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+				  <!-- Carousel indicators -->
+                  <div>
+                  <div class="carousel-indicators " >
+				    <div class="list-item" *ngFor="let data of header;let i=index;trackBy:trackByIndex;" (click)="selectedImg(i)" data-target="#fade-quote-carousel" data-slide-to={{i}}>
+						<h4  [ngClass]="{'selectedItem' : data.class== 'item active'}"  >{{data.manuName}}</h4></div>
+                    </div>
+                </div>
+				  <!-- Carousel items -->
+				  <div class="carousel-inner">
+				    <div *ngFor="let data of header;let i=index;trackBy:trackByIndex;"  class={{data.class}}>
+                        <div class="profile-circle" style="background-color: rgba(0,0,0,.2);background-image: url({{data.img}});"></div>
+                        <!-- <blockquote>
+                            <p >{{data.manuName}}</p>
+                        </blockquote> -->
+				    </div>
+				   
+                    
+				 
+			</div>							
+		</div>
+	</div>
+</section>
+<hr>

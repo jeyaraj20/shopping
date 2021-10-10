@@ -1,0 +1,44 @@
+<app-haeder-section></app-haeder-section>
+
+
+
+<section class="register-page section-b-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>create account</h3>
+                <div class="theme-card">
+                    <form [formGroup]="formGroup" >
+                        <div class="form-row">
+                            <div id="recover_password " style="">
+                                <h3 data-trans-key="customer.recover_password.title ">Verify user</h3>
+                                <div class="theme-card ">
+                                    <div class="form-row ">
+                                        <div class="col-md-12 ">
+                                            <label for="RecoverEmail " data-trans-key="customer.recover_password.email ">OTP</label>
+                                            <input type="text" name="OTP" formControlName="verificationCode" placeholder="OTP" id="RecoverEmail " class="form-control " autocorrect="off " autocapitalize="off ">
+                                            <bfv-messages></bfv-messages>
+                                        </div>                  
+                                        <div class="col-md-12">
+                                            <button type="submit" id="OTP" (click)="OTP()" class="btn btn-theme theme-btn-sm"s>submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 right-login ">
+                                <h3 data-trans-key="customer.register.heading ">New customer</h3>
+                                <div class="theme-card authentication-right ">
+                                    <h6 class="title-font " data-trans-key="customer.register.title ">Create Account</h6>
+                                    <p data-trans-key="customer.register.content ">Sign up for a free account at our store. Registration is quick and easy. It allows you to be able to order from our shop. To start shopping click register.</p>
+                                    <a href="/account/register " class="btn btn-theme theme-btn-sm " data-trans-key="customer.register.submit ">Create</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-footer></app-footer>

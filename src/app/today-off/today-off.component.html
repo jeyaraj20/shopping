@@ -1,0 +1,78 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+<div class="row blog">
+  <h3 class="h2">Most Popular </h3>
+
+                           <div class="col-md-12">
+                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="row">
+      <div *ngFor="let data of header" class="col-lg-3 col-md-6 col-sm-6" style="padding: 80px;background-repeat:no-repeat;background-image: url({{data.img}});height:250px"  >
+        <div class="our-team">
+        
+          <div class="team-content">
+            <h3 class="title">Dana ROBINSON</h3>
+            <span class="post">{{data.menuName}}</span>
+            <button class="shopnow">Shop Now</button>
+          </div>
+          <ul class="row social"> 
+            <li class="col-lg-3 col-md-6 col-sm-6"><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+            <li class="col-lg-3 col-md-6 col-sm-6"><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+            <li class="col-lg-3 col-md-6 col-sm-6"><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+            <li class="col-lg-3 col-md-6 col-sm-6"><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+     <div class="carousel-item">
+   <div class="row">
+     <div *ngFor="let header of data" class="col-lg-3 col-md-6 col-sm-6" style="padding: 80px;background-repeat:no-repeat;background-image: url({{header.img}});height:250px">
+        <div class="our-team">
+         
+          <div  class="team-content">
+            <h3 class="title">Ted SICHELMAN</h3>
+            <span class="post">{{header.menuName}}</span>
+            <button class="shopnow">Shop Now</button>
+
+          </div>
+          <ul class="social"> 
+            
+            <li class="col-lg-3 col-md-6 col-sm-6"><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+            <li class="col-lg-3 col-md-6 col-sm-6"><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+            <li class="col-lg-3 col-md-6 col-sm-6"><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+            <li class="col-lg-3 col-md-6 col-sm-6"><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+
+          </ul>
+        </div>
+      </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                        </div>
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+
+                </div>
+            </div>
+</div>
+
+
+
+
+<!-- -------------------------------------------------------------------------------------- -->
